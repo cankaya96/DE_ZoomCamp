@@ -1,0 +1,21 @@
+[project]
+name = "hw-1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "click>=8.3.1",
+    "duckdb>=1.4.3",
+    "pandas>=2.3.3",
+    "psycopg2-binary>=2.9.11",
+    "psycopg[binary]>=3.3.2",
+    "pyarrow>=23.0.0",
+    "requests>=2.32.5",
+    "sqlalchemy>=2.0.45",
+]
+
+[dependency-groups]
+dev = [
+    "jupyter>=1.1.1",
+]
